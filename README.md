@@ -1,6 +1,6 @@
 # Spring-boot-crud-app
 
- This app is a basic CRUD (Create, Read, Update, Delete) application using Spring Boot, Java , MySQL, and Tomcat.  
+ This app is a basic CRUD (Create, Read, Update, Delete) application using Spring Boot, Java8 , MySQL, and Tomcat.  
  The application allows users to manage a collection of "Product" entities.
  
  Implemented RESTful API endpoints for the following operations:
@@ -10,4 +10,6 @@
 4. Update a product: Accepts a JSON payload with updated product details and updates the corresponding entry in the database.
 5. Delete a product: Deletes the product with the given ID from the database.
 
-This app has Set up with an embedded Tomcat server to run the Spring Boot application.
+This app is Set up with an embedded Tomcat server to run the Spring Boot application.
+
+Main Method of the this project is in SpringBootCrudAppApplication.java
